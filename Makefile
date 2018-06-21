@@ -1,3 +1,6 @@
+.PHONY: default
+default: garf
+
 .PHONY: install
 install: | symlink-configs update-plugins helptags garf
 
