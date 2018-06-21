@@ -141,3 +141,6 @@
   path = bundle/vim-terraform
   url = git@github.com:hashivim/vim-terraform.git
 
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
