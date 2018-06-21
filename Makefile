@@ -6,14 +6,18 @@ install:
 	ln -snf "$(HOME)/.vim/vimrc" "$(HOME)/.vimrc"
 
 .PHONY: update
-update: | update-plugins garf
+update: | update-plugins helptags garf
 
 .PHONY: update-plugins
 update-plugins:
 	@echo "+ $@"
 	git submodule update --init --recursive
 	git submodule foreach git pull --recurse-submodules origin master
-	vim -c "Helptags | q"
+
+.PHONY: helptags
+helptags:
+	@echo "+ $@"
+	@vim -c "Helptags | q"
 
 .PHONY: update-pathogen
 update-pathogen:
