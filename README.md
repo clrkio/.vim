@@ -1,7 +1,8 @@
 Vimrc and pathogen bundles, installed as submodules. Tim Pope might not like to
-get crazy, but I do.
+[get crazy](https://github.com/tpope/vim-pathogen#runtime-path-manipulation),
+but I do.
 
-##### adding a new plugin
+#### adding a new plugin
 
 adding a new plugin involves:
 
@@ -9,11 +10,11 @@ adding a new plugin involves:
 - editing .gitmodules to keep it organized
 - running `make helptags`
 
-##### updating plugins
+#### updating plugins
 
 run `make update` and stare into garf's eyes.
 
-##### removing plugins
+#### removing plugins
 
 somehow this is a three step process:
 
