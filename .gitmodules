@@ -57,10 +57,12 @@
 [submodule "paredit.vim"]
   path = bundle/paredit.vim
   url = git@github.com:vim-scripts/paredit.vim.git
+  ignore = untracked
 
 [submodule "vim-clojure-static"]
   path = bundle/vim-clojure-static
   url = git@github.com:guns/vim-clojure-static.git
+  ignore = untracked
 
 [submodule "rainbow_parentheses.vim"]
   path = bundle/rainbow_parentheses.vim
@@ -103,6 +105,7 @@
 [submodule "tsuquyomi"]
   path = bundle/tsuquyomi
   url = git@github.com:Quramy/tsuquyomi.git
+  ignore = untracked
 
 ; Markdown
 
