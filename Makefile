@@ -1,12 +1,14 @@
-# set up ~/.vimrc for the current user. assumes that the repo is cloned
-# into ~/.vim.
 .PHONY: install
-install:
-	@echo "+ $@"
-	ln -snf "$(HOME)/.vim/vimrc" "$(HOME)/.vimrc"
+install: | symlink-configs update-plugins helptags garf
 
 .PHONY: update
 update: | update-plugins helptags garf
+
+
+.PHONY: symlink-configs
+symlink-configs:
+	@echo "+ $@"
+	ln -snf "$(HOME)/.vim/vimrc" "$(HOME)/.vimrc"
 
 .PHONY: update-plugins
 update-plugins:
@@ -27,6 +29,7 @@ update-pathogen:
 # garf satan
 .PHONY: garf
 garf:
+	@echo "+ $@"
 	@echo ""
 	@echo "\033[0;35m"
 	@cat .garf
