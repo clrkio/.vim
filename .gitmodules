@@ -68,6 +68,10 @@
   path = bundle/rainbow_parentheses.vim
   url = git@github.com:kien/rainbow_parentheses.vim.git
 
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = git@github.com:tpope/vim-fireplace.git
+
 ; Docker
 
 [submodule "bundle/Dockerfile.vim"]

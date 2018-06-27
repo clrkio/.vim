@@ -108,9 +108,6 @@ let g:ale_pattern_options = {
 nmap <leader><F2> <Plug>(ale_next_wrap)
 nmap <leader><F3> <Plug>(ale_detail)
 
-" Clojure
-au FileType clojure nnoremap <leader>r :Require<cr>
-
 " Fugitive
 nnoremap <leader>gst :Gstatus<cr>
 nnoremap <leader>gd :Gdiff
