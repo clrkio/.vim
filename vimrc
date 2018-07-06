@@ -32,6 +32,25 @@ inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
+" System clipboard
+nnoremap <leader>y "*y
+vnoremap <leader>y "*y
+nnoremap <leader>p "*p
+vnoremap <leader>p "*p
+
+" Format text
+nnoremap <leader>q gqip
+noremap gq <leader>q
+
+" Search
+nnoremap / /\v
+vnoremap / /\v
+set incsearch hlsearch
+set gdefault
+set showmatch
+nnoremap <leader><space> :noh<cr>
+nnoremap <leader>a :Ag<space>
+
 " Disable help key
 inoremap <F1> <ESC>
 vnoremap <F1> <ESC>
@@ -60,6 +79,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 "find/replace selected text in Visual mode
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
 " ------------------------------------------------------------------------------
 " Windows and splits
 
@@ -73,33 +93,12 @@ nnoremap <C-l> <C-w>l
 noremap <leader>w <C-w>v<C-w>l
 
 " ------------------------------------------------------------------------------
-" Shortcuts
-
-" Quick esc
-inoremap jj <ESC>
-
-" System clipboard
-nnoremap <leader>y "*y
-vnoremap <leader>y "*y
-nnoremap <leader>p "*p
-vnoremap <leader>p "*p
-
-" Format text
-nnoremap <leader>q gqip
-noremap gq <leader>q
-
-" Search
-nnoremap / /\v
-vnoremap / /\v
-set incsearch hlsearch
-set gdefault
-set showmatch
-nnoremap <leader><space> :noh<cr>
-nnoremap <leader>a :Ag<space>
+" ALE and language plugins
 
 " ALE
 let g:ale_linters = {
 \   'go': ['go build', 'gofmt', 'govet'],
+\   'python': ['flake8'],
 \}
 let g:ale_pattern_options = {
 \ '\.min\.js$': {'ale_linters': [], 'ale_fixers': []},
@@ -108,28 +107,12 @@ let g:ale_pattern_options = {
 nmap <leader><F2> <Plug>(ale_next_wrap)
 nmap <leader><F3> <Plug>(ale_detail)
 
-" Fugitive
-nnoremap <leader>gst :Gstatus<cr>
-nnoremap <leader>gd :Gdiff
-
 " Go
 let g:go_fmt_command = "goimports"
 au FileType go nmap <leader>d <Plug>(go-def)
 au FileType go nmap <leader>sd <Plug>(go-def-split)
 au FileType go nmap <leader>vd <Plug>(go-def-vertical)
 au FileType go nmap <leader>j <Plug>(go-doc)
-
-" Elm
-let g:elm_format_autosave = 1
-
-" Pythong
-au FileType python setl tabstop=4 shiftwidth=4 softtabstop=4
-
-" Ruby
-let g:syntastic_ruby_mri_exec='/usr/local/opt/rbenv/shims/ruby'
-
-"RMD neckbeardery
-nnoremap <leader>rmd :!Rscript -e 'library(knitr); knit2html("%")'
 
 " Rust
 let g:racer_experimental_completer = 1
