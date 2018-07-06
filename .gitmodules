@@ -143,3 +143,6 @@
   path = bundle/vim-terraform
   url = https://github.com/hashivim/vim-terraform.git
 
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
