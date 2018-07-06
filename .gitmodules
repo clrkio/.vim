@@ -8,37 +8,37 @@
 
 [submodule "bundle/vim-sensible"]
   path = bundle/vim-sensible
-  url = git@github.com:tpope/vim-sensible.git
+  url = https://github.com/tpope/vim-sensible.git
 
 [submodule "bundle/vim-commentary"]
   path = bundle/vim-commentary
-  url = git@github.com:tpope/vim-commentary.git
+  url = https://github.com/tpope/vim-commentary.git
 
 [submodule "bundle/vim-colors-solarized"]
   path = bundle/vim-colors-solarized
-  url = git@github.com:altercation/vim-colors-solarized.git
+  url = https://github.com/altercation/vim-colors-solarized.git
 
 [submodule "bundle/vim-vinegar"]
   path = bundle/vim-vinegar
-  url = git@github.com:tpope/vim-vinegar.git
+  url = https://github.com/tpope/vim-vinegar.git
 
 [submodule "bundle/vim-airline"]
   path = bundle/vim-airline
-  url = git@github.com:vim-airline/vim-airline.git
+  url = https://github.com/vim-airline/vim-airline.git
 
 [submodule "bundle/vim-airline-themes"]
   path = bundle/vim-airline-themes
-  url = git@github.com:vim-airline/vim-airline-themes.git
+  url = https://github.com/vim-airline/vim-airline-themes.git
 
 ; git
 
 [submodule "bundle/vim-fugitive"]
   path = bundle/vim-fugitive
-  url = git@github.com:tpope/vim-fugitive.git
+  url = https://github.com/tpope/vim-fugitive.git
 
 [submodule "bundle/vim-rhubarb"]
   path = bundle/vim-rhubarb
-  url = git@github.com:tpope/vim-rhubarb.git
+  url = https://github.com/tpope/vim-rhubarb.git
 
 ; LINTING AND LINTERS AND SYNTAX HIGHLIGHTING
 ;
@@ -50,98 +50,98 @@
 
 [submodule "bundle/ale"]
   path = bundle/ale
-  url = git@github.com:w0rp/ale.git
+  url = https://github.com/w0rp/ale.git
 
 ; clojure
 
 [submodule "bundle/paredit.vim"]
   path = bundle/paredit.vim
-  url = git@github.com:vim-scripts/paredit.vim.git
+  url = https://github.com/vim-scripts/paredit.vim.git
   ignore = untracked
 
 [submodule "bundle/vim-clojure-static"]
   path = bundle/vim-clojure-static
-  url = git@github.com:guns/vim-clojure-static.git
+  url = https://github.com/guns/vim-clojure-static.git
   ignore = untracked
 
 [submodule "bundle/rainbow_parentheses.vim"]
   path = bundle/rainbow_parentheses.vim
-  url = git@github.com:kien/rainbow_parentheses.vim.git
+  url = https://github.com/kien/rainbow_parentheses.vim.git
 
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
-	url = git@github.com:tpope/vim-fireplace.git
+	url = https://github.com/tpope/vim-fireplace.git
 
 ; Docker
 
 [submodule "bundle/Dockerfile.vim"]
   path = bundle/Dockerfile.vim
-  url = git@github.com:ekalinin/Dockerfile.vim.git
+  url = https://github.com/ekalinin/Dockerfile.vim.git
 
 ; Elm
 
 [submodule "bundle/elm-vim"]
   path = bundle/elm-vim
-  url = git@github.com:ElmCast/elm-vim.git
+  url = https://github.com/ElmCast/elm-vim.git
 
 ; GraphQL
 
 [submodule "bundle/vim-graphql"]
   path = bundle/vim-graphql
-  url = git@github.com:jparise/vim-graphql.git
+  url = https://github.com/jparise/vim-graphql.git
 
 ; Go
 
 [submodule "bundle/vim-go"]
   path = bundle/vim-go
-  url = git@github.com:fatih/vim-go.git
+  url = https://github.com/fatih/vim-go.git
 
 ; JS and Typescript
 
 [submodule "bundle/vim-javascript"]
   path = bundle/vim-javascript
-  url = git@github.com:pangloss/vim-javascript.git
+  url = https://github.com/pangloss/vim-javascript.git
 
 [submodule "bundle/typescript-vim"]
   path = bundle/typescript-vim
-  url = git@github.com:leafgarland/typescript-vim.git
+  url = https://github.com/leafgarland/typescript-vim.git
 
 [submodule "bundle/tsuquyomi"]
   path = bundle/tsuquyomi
-  url = git@github.com:Quramy/tsuquyomi.git
+  url = https://github.com/Quramy/tsuquyomi.git
   ignore = untracked
 
 ; Markdown
 
 [submodule "bundle/vim-markdown"]
   path = bundle/vim-markdown
-  url = git@github.com:tpope/vim-markdown.git
+  url = https://github.com/tpope/vim-markdown.git
 
 ; Protobuf
 
 [submodule "bundle/vim-protobuf"]
   path = bundle/vim-protobuf
-  url = git@github.com:uarun/vim-protobuf.git
+  url = https://github.com/uarun/vim-protobuf.git
 
 ; R
 
 [submodule "bundle/Vim-R-plugin"]
   path = bundle/Vim-R-plugin
-  url = git@github.com:jcfaria/Vim-R-plugin.git
+  url = https://github.com/jcfaria/Vim-R-plugin.git
 
 ; Rust
 
 [submodule "bundle/rust.vim"]
   path = bundle/rust.vim
-  url = git@github.com:rust-lang/rust.vim.git
+  url = https://github.com/rust-lang/rust.vim.git
 
 [submodule "bundle/vim-racer"]
   path = bundle/vim-racer
-  url = git@github.com:racer-rust/vim-racer.git
+  url = https://github.com/racer-rust/vim-racer.git
 
 ; Terraform
 
 [submodule "bundle/vim-terraform"]
   path = bundle/vim-terraform
-  url = git@github.com:hashivim/vim-terraform.git
+  url = https://github.com/hashivim/vim-terraform.git
 
