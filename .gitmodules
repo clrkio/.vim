@@ -123,12 +123,6 @@
   path = bundle/vim-protobuf
   url = https://github.com/uarun/vim-protobuf.git
 
-; R
-
-[submodule "bundle/Vim-R-plugin"]
-  path = bundle/Vim-R-plugin
-  url = https://github.com/jcfaria/Vim-R-plugin.git
-
 ; Rust
 
 [submodule "bundle/rust.vim"]
