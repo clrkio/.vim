@@ -15,6 +15,7 @@ colorscheme solarized
 set scrolloff=10
 
 " UI
+set nowrap
 set wildmenu
 
 " Leader
