@@ -11,33 +11,23 @@ set modelines=0
 
 " Colors/Visibility
 set background=dark
-colorscheme solarized
 set scrolloff=10
 
 " UI
 set nowrap
 set wildmenu
+set mouse=a
+set ttymouse=xterm2
 
 " Leader
 let mapleader = ","
-
-" Disable Arrow Keys
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
-nnoremap j gj
-nnoremap k gk
 
 " System clipboard
 nnoremap <leader>y "*y
 vnoremap <leader>y "*y
 nnoremap <leader>p "*p
 vnoremap <leader>p "*p
+set pastetoggle=<F2>
 
 " Format text
 nnoremap <leader>q gqip
