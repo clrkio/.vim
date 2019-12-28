@@ -1,3 +1,5 @@
+Shamelessly copied from [Ben](https://github.com/blinsay/.vim)
+
 Vimrc and pathogen bundles, installed as submodules. Tim Pope might not like to
 [get crazy](https://github.com/tpope/vim-pathogen#runtime-path-manipulation),
 but I do.
